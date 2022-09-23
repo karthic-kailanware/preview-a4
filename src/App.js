@@ -1,10 +1,12 @@
 import "./styles.css";
+import PreviewA4 from "./component/PreviewA4";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+    <div>
+      <PreviewA4>
+        <h1>Your code</h1>
+      </PreviewA4>
+  </div>
   );
 }

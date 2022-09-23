@@ -1,0 +1,22 @@
+.template-preview {
+    position: relative;
+    aspect-ratio: 21/29.7;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .template-container {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background: white;
+    transform-origin: top left;
+  }
+  
+  .template--content {
+    width: 794px;
+    height: 1123px;
+    overflow: hidden;
+  }
+  
